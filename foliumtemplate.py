@@ -21,10 +21,10 @@ f.GeoJson(trails_file).add_to(map)
 ##############################################################################
 ## add markers and popups ##
 # adding markers 
-f.Marker([40.07817, -75.2278], "Start/End").add_to(map)
+f.Marker([40.07817, -75.2278]).add_to(map)
 
 # adding popups
-
+f.Marker([40.07817, -75.2278], "Start/End").add_to(map)
 
 #save map as html file so we can view it
 map.save('C:/Users/tus97759/Desktop/GIS_Programming_ClassNotes/FoliumPractice/mappractice.html')
