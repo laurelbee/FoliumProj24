@@ -21,7 +21,7 @@ f.GeoJson(trails_file).add_to(map)
 ##############################################################################
 ## add markers and popups ##
 # adding markers 
-folium.Marker([40.07817, -75.2278], "Start/End").add_to(m_geo)
+f.Marker([40.07817, -75.2278], "Start/End").add_to(map)
 
 # adding popups
 
